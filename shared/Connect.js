@@ -7,7 +7,7 @@ module.exports = {
       const client = await MongoClient.connect(
         "mongodb+srv://root:root@cluster0.f8ukr.mongodb.net?retryWrites=true&w=majority"
       );
-      this.db = client.db("HallBooking");
+      this.db = client.db("RentalEquipment");
       console.log("connected")
     } catch (err) {
       console.error(err);
